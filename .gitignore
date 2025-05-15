@@ -1,0 +1,29 @@
+# common files and folders to ignore
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Linux
+*~
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Node
+node_modules/
+package-lock.json
+# Yarn
+yarn-error.log
+# npm-debug.log
+# dotenv
+.env
+# VS Code
+.vscode/
+.history
+# JetBrains
+.idea/
+# Jupyter Notebook
+.ipynb_checkpoints/

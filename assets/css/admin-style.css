@@ -1,0 +1,67 @@
+.usersk7-wrap .usersk7-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.usersk7-wrap h1 .dashicons {
+    vertical-align: middle;
+}
+
+.usersk7-hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Radiocassette Import Box Styles */
+.usersk7-import-box {
+    border: 2px dashed #0073aa; /* WordPress blue */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* For positioning the image if needed */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-height: 200px; /* Adjust as needed for your image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersk7-cassette-graphic {
+    max-width: 150px; /* Adjust size of your image */
+    max-height: 100px; /* Adjust size of your image */
+    margin-bottom: 15px;
+    opacity: 0.7; /* Optional: make it look a bit like a watermark */
+}
+
+.usersk7-file-label {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.usersk7-file-label:hover {
+    background-color: #e0e0e0;
+}
+
+.usersk7-import-box input[type="file"] {
+    /* Hide the default input but keep it accessible */
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#usersk7-import-button,
+#usersk7-export-button {
+    margin-top: 15px;
+}
